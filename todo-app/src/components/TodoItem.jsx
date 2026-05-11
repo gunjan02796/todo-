@@ -18,7 +18,7 @@ export default function TodoItem({
         className="delete-btn"
         onClick={() => deleteTodo(todo.id)}
       >
-        Delete
+      Remove
       </button>
     </div>
   );
